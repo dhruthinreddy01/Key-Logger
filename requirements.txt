@@ -1,0 +1,22 @@
+# Requirements for Enhanced Keylogger with Cursor Disruption Module
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+pyautogui>=0.9.54
+
+# Optional dependencies for enhanced functionality
+# These are platform-specific and may not be available on all systems
+
+# For Windows cursor control (included in Python standard library)
+# ctypes - already included in Python
+
+# For macOS cursor control
+# subprocess - already included in Python
+
+# For Linux cursor control (optional)
+# xdotool - install via package manager: sudo apt-get install xdotool (Ubuntu/Debian)
+# or: sudo yum install xdotool (CentOS/RHEL)
+
+# Additional useful packages for development
+pynput>=1.7.6  # Alternative keyboard/mouse monitoring
+psutil>=5.9.0   # System and process utilities 
